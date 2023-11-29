@@ -6,7 +6,10 @@ if (article)
     const text = article.textContent;
     const wordMatchRegEx = /[^\s]+/g;
     /* RegEx Explanation :D
-        FILLER
+        EXACTLY ONE /
+        ONE OR MORE \s (whitespace) at the beginning of a line
+        EXACTLY ONE /
+        EXACTLY ONE g
     */
     const words = text.matchAll(wordMatchRegEx);
     const wordCount = [...words].length;

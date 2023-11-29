@@ -14,7 +14,9 @@
             "js": ["scripts/content.js"],
             "matches": [
                 "https://developer.chrome.com/docs/extensions/*",
-                "https://developer.chrome.com/docs/webstore/*"
+                "https://developer.chrome.com/docs/webstore/*",
+                "https://developer.chrome.com/docs/devtools/*",
+                "https://developer.chrome.com/docs/workbox/*"
             ]
         }
     ]
