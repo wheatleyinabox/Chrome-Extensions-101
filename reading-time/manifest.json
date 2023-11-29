@@ -18,6 +18,12 @@
                 "https://developer.chrome.com/docs/devtools/*",
                 "https://developer.chrome.com/docs/workbox/*"
             ]
+        },
+        {
+            "js": ["scripts/fanfics.js"],
+            "matches": [
+                "https://archiveofourown.org/works/*"
+            ]
         }
     ]
 }
