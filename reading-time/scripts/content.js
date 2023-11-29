@@ -17,10 +17,12 @@ if (article)
     badge.classList.add("color-secondary-text", "type--caption");
     badge.textContent = `⏱ ${readingTime} minute read! :O`;
 
+    // Coming from webpage elements
     // Support for API reference docs
     const header = article.querySelector("h1");
     // Support for article docs with date
     const date = article.querySelector("time")?.parentNode;
 
+    // Inject after header and date published on webpage
     (date ?? header).insertAdjacentElement("afterend", badge);
 }
