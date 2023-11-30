@@ -6,7 +6,7 @@ if (fanfic_text)
   const words = text.matchAll(wordMatchRegExp);
   const wordCount = [...words].length;
   const readingTime = Math.round(wordCount / 200);
-  const needle = document.createElement("p");
+  const needle = document.createElement("h3");
   needle.classList.add("title");
   needle.textContent = `⏰ ${readingTime} minute read!`;
 
