@@ -26,7 +26,7 @@ if (fanfic_text)
     </div>
 
     __INJECTION__
-    <div id="worksin">
+    <div id="workskin">
         <div class="preface group">
             <h2 class="title heading"> ... </h2>
             <h3 class="byline heading">
