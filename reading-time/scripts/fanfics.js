@@ -1,14 +1,14 @@
-const fanfic_text = document.querySelector(".userstuff");
+const fanfic_text = document.querySelector("#chapters");
 if (fanfic_text) 
 {
   const text = fanfic_text.textContent;
-  const wordMatchRegExp = /[^\s]+/g; // assuming this doesn't change idk man
+  const wordMatchRegExp = /[^\s]+/g;
   const words = text.matchAll(wordMatchRegExp);
   const wordCount = [...words].length;
   const readingTime = Math.round(wordCount / 200);
   const needle = document.createElement("p");
   needle.classList.add("title");
-  needle.textContent = `⏰ ${readingTime} minute read! :D`;
+  needle.textContent = `⏰ ${readingTime} minute read!`;
 
   const injection_location = document.querySelector("#workskin");
   const author = injection_location.querySelector("h3");
