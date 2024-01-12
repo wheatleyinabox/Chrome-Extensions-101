@@ -18,8 +18,8 @@
     "commands": {
       "_execute_action": {
         "suggested_key": {
-          "default": "Ctrl+",
-          "mac": "Command+N"
+          "default": "Ctrl+B",
+          "mac": "Command+B"
         }
       }
     }
